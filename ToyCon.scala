@@ -5,7 +5,7 @@ import scala.collection.mutable.{Stack,  HashMap}
 
 class ToyConParser extends JavaTokenParsers {
 
-  //toy concatenative language in Scala
+ //toy concatenative language written in Scala
   
 var quoteIndex = 0
 def quoteName = { quoteIndex += 1 ;"quot"+ quoteIndex}
